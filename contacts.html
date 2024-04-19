@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-menu__list">
+                <a href="index.html"><li class="nav-menu__list-item">О НАС</li></a>
+                <a href="galery.html"><li class="nav-menu__list-item">ГАЛЕРЕЯ</li></a>
+                <a href="contacts.html"><li class="nav-menu__list-item">КОНТАКТЫ</li></a>
+            </ul>
+          </nav>
+    </header>
+    <div class="container-contacts">
+        <h1>Контакты</h1>
+        <div class="contact-info">
+            <div>
+                <h2>Адрес</h2>
+                <p>ул. Профсоюзная, д. 10, Сергиев Посад</p>
+            </div>
+            <div>
+                <h2>Телефон</h2>
+                <p>+7 (123) 456-78-90</p>
+            </div>
+            <div>
+                <h2>Email</h2>
+                <p>info@example.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-ques">
+        <h1>Если остались вопросы, можете задавать</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="question">Ваш вопрос:</label>
+                <textarea id="question" name="question" rows="4" required></textarea>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <img src="icons8-instagram-50.png" alt="">
+                <img src="icons8-facebook-50.png" alt="">
+                <img src="icons8-twitter-50.png" alt="">
+            </div>
+            <div class="address">
+                <p>Адрес: ул. Профсоюзная, д. 10, Сергиев Посад</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
